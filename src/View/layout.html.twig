@@ -12,12 +12,11 @@
     <link rel="stylesheet" href="/assets/css/style.css"> 
     <link rel="icon" href="/assets/images/favicon.png">
 </head>
-
-<body>
-    <nav>
-        {% block navbar %}
+    <body>
+        <nav>
             {% include 'nav_bar.html.twig' %}
-        {% endblock %}
-    </nav>
-</body>
+        </nav>      
+        {% include 'details.html.twig' %}
+        {% include '_footer.html.twig' %}
+    </body>
 </html>
